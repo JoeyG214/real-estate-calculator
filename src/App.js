@@ -1,7 +1,11 @@
+import UserInputs from "./components/UserInputs";
+import Outputs from "./components/Outputs";
+
 const App = () => {
   return (
-    <div className="App">
-
+    <div id='app' className=''>
+      <UserInputs />
+      <Outputs />
     </div>
   );
 }
